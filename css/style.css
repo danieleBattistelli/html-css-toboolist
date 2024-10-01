@@ -1,5 +1,17 @@
+/* Selettore universale seleziona ogni elemento nella pagina */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header{
+    font-size: 30px;
+    font-weight: 30px;
+    margin: 10 30 ;
+    height: 30px;
+}
+
+.header img{
+    vertical-align:middle;
 }
