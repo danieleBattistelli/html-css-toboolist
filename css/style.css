@@ -1,17 +1,40 @@
-/* Selettore universale seleziona ogni elemento nella pagina */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .header{
-    font-size: 30px;
-    font-weight: 30px;
-    margin: 10 30 ;
-    height: 30px;
+    font-size: 40px;
+    font-size: x-large;
 }
 
 .header img{
     vertical-align:middle;
+    size: 30%;
+}   
+
+.main{
+    box-sizing: border-box;
+    margin: 50 auto;
+    width: 80%;
+    height: 500;
+    /* debug */
+    /* border: 2px solid blue; */
+}
+
+.main button{
+border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#add-task{
+    background-color: #008CBA;
+}
+#add-section{
+    color: grey;
+    background-color: #ffffff;
 }
